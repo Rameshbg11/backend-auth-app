@@ -1,0 +1,35 @@
+{
+  "name": "backend-auth",
+  "version": "1.0.0",
+  "description": "Backend Auth app with JWT token authentication.",
+  "main": "app.js",
+  "scripts": {
+    "test": "N/A"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rameshbg11/backend-auth-app.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDb",
+    "Express",
+    "JWT",
+    "."
+  ],
+  "author": "Ramesh BG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rameshbg11/backend-auth-app/issues"
+  },
+  "homepage": "https://github.com/Rameshbg11/backend-auth-app#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.5.8"
+  }
+}
